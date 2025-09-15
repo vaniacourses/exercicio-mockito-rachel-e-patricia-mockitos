@@ -9,7 +9,7 @@ import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
 public class JogoTest {
-	
+	// Testando
     @Test
     public void testarJogo() {
 
@@ -23,7 +23,7 @@ public class JogoTest {
         when(jogador.lancar(dado1, dado2)).thenReturn(34); 
         
         Integer a = jogador.lancar(dado1, dado2);
-        
+
         // Verificar se o metodo foi chamado
         verify(jogador).lancar(dado1, dado2);
 
